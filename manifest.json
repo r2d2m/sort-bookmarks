@@ -1,0 +1,17 @@
+{
+    "name": "Bookmark sorter",
+    "version": "0.0",
+    "description": "Sorts bookmarks.",
+    "manifest_version": 2,
+    "permissions": [
+        "bookmarks"
+    ],
+    "background": {
+        "scripts": [
+            "browser-polyfill.js",
+            "rules.js",
+            "background.js"
+        ],
+        "persistent": true
+    }
+}
